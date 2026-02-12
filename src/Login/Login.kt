@@ -16,8 +16,6 @@ class Login (
         for (user in users) {
             if (user.getEmail() == email && user.getPassword() == password) {
                 println("Bienvenido, ${email}")
-            } else{
-                println("Los datos ingresados no son correctos")
             }
         }
     }
