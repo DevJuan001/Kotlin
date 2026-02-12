@@ -1,0 +1,4 @@
+package Warranties
+
+class Warranties {
+}

@@ -1,0 +1,4 @@
+package Products
+
+class AddProduct {
+}
