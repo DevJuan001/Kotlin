@@ -13,7 +13,7 @@ class Products {
         for ((index, product) in productsArray.withIndex()) {
             println("""
                 
-                Producto ${index}:
+                Producto ${index + 1}:
                 Categoria: ${product.getCategory()}
                 Subcategoria: ${product.getSubcategory()}
                 Orden de Entrada: ${product.getInputOrder()}
@@ -41,24 +41,63 @@ class Products {
         var newProduct = Product(category, subcategory, inputOrder, name, serial, warrantyTime)
         productsArray += productsArray + newProduct
 
-        println("Producto Agregado correctamente")
+        println("Producto Agregado correctamente... ")
         newProduct.showInfo()
     }
 
     fun updateProduct() {
-        print("Introduce el numero del producto que deseas editar")
-        var productNumber = readln().toInt()
+        println("Introduce el serial producto que deseas editar ")
+        var productSerial = readln()
+        for ((index,product) in productsArray.withIndex()){
+            if (productSerial == product.getSerial()){
+                println("""
+                    Actualmente pertenece a la categoria: ${product.getCategory()}
+                    Introduzca la nueva categoria:
+                """.trimIndent())
+                var categoryUpdate = readln()
+                println("""
+                    Actualmente pertenece a la subcategoria: ${product.getSubcategory()}
+                    Introduzca la nueva subcategoria:
+                """.trimIndent())
+                var subcategoryUpdate = readln()
+                println("Orden de entrada actual: ${product.getInputOrder()} ")
+                var inputOrderUpdate = readln()
+                println("""
+                    El nombre actual es: ${product.getName()}
+                    Introduzca la nueva orden de entrada:
+                """.trimIndent())
+                var nameUpdate = readln()
+                println("""
+                    El serial actual es: ${product.getSerial()}
+                    Introduzca el nuevo nombre:
+                """.trimIndent())
+                var serialUpdate = readln()
+                println("""
+                    Tiempo actual de garantia del producto es: ${product.getWarrantyTime()}
+                    Introduzca el nuevo serial:
+                """.trimIndent())
+                var warrantyTimeUpdate = readln()
 
-        if (productNumber in productsArray.indices) {
-            val productIndex = productsArray[productNumber]
-        } else {
-            println("No existe ningun producto con ese numero")
+                productsArray[index]= Product(categoryUpdate, subcategoryUpdate,inputOrderUpdate,nameUpdate, serialUpdate, warrantyTimeUpdate )
+
+                println("Productos Restantes: ")
+                showProducts()
+            }
         }
     }
 
     fun deleteProduct() {
-        print("Introduce el numero del producto que deseas eliminar: ")
-        var productIndex = readln().toInt()
+        print("Introduce el serial del producto que deseas eliminar: ")
+        var productSerial = readln()
+        for((index, product) in productsArray.withIndex()){
+            if (productSerial == product.getSerial()){
+                println("Producto Eliminado satisfactoriamente")
+                productsArray =productsArray.filterIndexed { i,_-> i != index }.toTypedArray()
+                break
+            }
+        }
+        println("Nuevo listado de productos")
+        showProducts()
     }
 
     fun start() {

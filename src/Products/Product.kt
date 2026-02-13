@@ -34,6 +34,7 @@ open class Product(
 
     fun showInfo() {
         println("""
+            
             Categoria del Producto: ${getCategory()}
             Subcategoria del Producto: ${getSubcategory()}
             Orden de entrada: ${getInputOrder()}
