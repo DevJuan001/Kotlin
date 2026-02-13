@@ -8,11 +8,8 @@ class Login (
     private var password: String
 ){
     val users = arrayOf(
-        Users("nn","ll"),
-        Users("", ""),
-        Users("", ""),
-        Users("", ""),
-        Users("", ""),
+        Users("user@user.com","12345"),
+        Users("user1@user.com", "12345"),
     )
 
     fun validate(){

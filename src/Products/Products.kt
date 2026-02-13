@@ -3,10 +3,7 @@ package Products
 class Products {
     var productsArray = arrayOf<Product>(
         Product("Televisores", "OLED", "INP0001", "TV LG 43'", "QTYC1414", "2 Meses"),
-        Product("Televisores", "OLED", "INP0001", "TV LG 43'", "QTYC1414", "2 Meses"),
-        Product("Televisores", "OLED", "INP0001", "TV LG 43'", "QTYC1414", "2 Meses"),
-        Product("Televisores", "OLED", "INP0001", "TV LG 43'", "QTYC1414", "2 Meses"),
-        Product("Televisores", "OLED", "INP0001", "TV LG 43'", "QTYC1414", "2 Meses"),
+        Product("Camaras", "Camara 4K", "INP0002", "Camara a 4K", "QTYC1212", "12 Meses"),
     )
 
     fun showProducts() {
