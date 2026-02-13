@@ -7,7 +7,7 @@ class Warranties {
     )
 
     fun showWarranties() {
-        for ((index, warranty) in warranties) {
+        for ((index, warranty) in warranties.withIndex()) {
             println("""
                 Numero de garantia ${index + 1}:
                 Descripcion: ${warranty.getCustomer()}
