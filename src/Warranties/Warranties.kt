@@ -1,8 +1,11 @@
 package Warranties
 
+import Products.Product
+import kotlin.collections.plus
+
 class Warranties {
 
-    var warranties = arrayOf<Warranty>(
+    var warrantiesArray = arrayOf<Warranty>(
         Warranty("", ""),
     )
 
@@ -16,7 +19,14 @@ class Warranties {
     }
 
     fun addWarranty() {
+        print("Categoria a la que pertenecera: ")
+        var description = readln()
 
+        var newWarranties = Warranty(desciption)
+        productsArray += productsArray + newProduct
+
+        println("Producto Agregado correctamente... ")
+        newProduct.showInfo()
     }
 
     fun updateWarranty() {
