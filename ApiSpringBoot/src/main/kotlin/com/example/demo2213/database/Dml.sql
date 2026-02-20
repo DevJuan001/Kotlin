@@ -26,7 +26,11 @@ INSERT INTO CATEGORIES VALUES
 
 
 INSERT INTO NOTICES VALUES
-(null,'un perro se orino en la entrada', 'YA ATENDIDO', '2026-02-02',2),
-(null, 'musica muy alto volumen','SIN ATENDER', '2026-02-02',2),
-(null, 'el domingo hay reunion','EN PROCESO', '2026-02-02',3);
+(1, 1, null, 'un perro se orino en la entrada', 'YA ATENDIDO', '2026-02-02'),
+(2, 1, null, 'musica muy alto volumen', 'SIN ATENDER', '2026-02-02'),
+(3, 2, null, 'el domingo hay reunion', 'EN PROCESO', '2026-02-02');
+
+INSERT INTO COMMENTS VALUES
+(4, 1, null, "No fue mi perro", "2026-02-02"),
+(3, 2, null, "Disculpe ya le bajo", "2026-02-02");
 

@@ -28,7 +28,7 @@ class CommentService {
 
     fun getCommentsByNoticeId(notice_id: Int) : List<Comment> {
         val sql = """
-            CALL get_comments_by_notice(?);
+            CALL get_comments_by_notice_id(?);
         """.trimIndent()
         return jdbcTemplate.query(sql, arrayOf(notice_id), { rs, _ ->
             Comment(
@@ -43,5 +43,45 @@ class CommentService {
                 rs.getString("comment_date")
             )
         })
+    }
+
+    fun createComment(comment: Comment) : Int {
+        val sql = """
+            INSERT INTO COMMENTS(
+            user_id,
+            notice_id,
+            comment_text)
+            VALUES (?, ?, ?)
+        """.trimIndent()
+
+        return jdbcTemplate.update(
+            sql,
+            comment.user_id,
+            comment.notice_id,
+            comment.comment_text
+        )
+    }
+
+    fun updateComment(comment_text: String, comment_id: Int) : Int {
+        val sql = """
+            UPDATE COMMENTS SET
+                comment_text = ?
+            WHERE comment_id = ?
+        """.trimIndent()
+
+        return jdbcTemplate.update(
+            sql,
+            comment_text,
+            comment_id
+        )
+    }
+
+    fun deleteComment(comment_id: Int) : Int {
+        val sql = """
+            DELETE FROM COMMENTS 
+            WHERE comment_id = ?
+        """.trimIndent()
+
+        return jdbcTemplate.update(sql, comment_id)
     }
 }

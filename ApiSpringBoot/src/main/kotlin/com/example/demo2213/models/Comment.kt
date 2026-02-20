@@ -6,10 +6,10 @@ data class Comment (
     var user_name: String? = null,
     var user_first_surname: String? = null,
     var notice_id: Int,
-    var notice_body: String,
+    var notice_body: String? = null,
     var comment_id: Int? = null,
     var comment_text: String,
-    var comment_date: String
+    var comment_date: String? = null
 ) {
 }
 

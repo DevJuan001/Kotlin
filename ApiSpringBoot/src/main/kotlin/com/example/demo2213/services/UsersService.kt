@@ -12,14 +12,7 @@ class UsersService {
     @Autowired
     lateinit var jdbcTemplate: JdbcTemplate
 
-    fun getUsers(): List<String> {
-        val sql = "SELECT * FROM USERS"
-        return jdbcTemplate.query(sql, RowMapper<String> { rs, _ ->
-            rs.getString("user_name")
-        })
-    }
-
-    fun getUsersDetails() : List<User> {
+    fun getUsers() : List<User> {
         val sql = "SELECT * FROM USERS"
         return jdbcTemplate.query(sql, RowMapper<User> { rs, _ ->
             User(
@@ -40,7 +33,6 @@ class UsersService {
     fun createUser(user: User) : Int{
         val sql = """
             INSERT INTO USERS(
-            rol_id,
             user_name,
             user_first_surname,
             user_second_surname,
@@ -50,12 +42,11 @@ class UsersService {
             user_email,
             user_phone,
             user_date
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
         """.trimIndent()
 
         return jdbcTemplate.update(
             sql,
-            1,
             user.user_name,
             user.user_first_surname,
             user.user_second_surname,

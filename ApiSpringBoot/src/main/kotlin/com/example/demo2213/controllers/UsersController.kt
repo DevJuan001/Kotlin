@@ -19,13 +19,8 @@ class UsersController {
     lateinit var usersService: UsersService
 
     @GetMapping("/users")
-    fun getUsers() : List<String> {
+    fun getUsers() : List<User> {
         return usersService.getUsers()
-    }
-
-    @GetMapping("/details")
-    fun getUsersDetails() : List<User> {
-        return usersService.getUsersDetails()
     }
 
     @PostMapping("/users")
