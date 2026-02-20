@@ -5,14 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a835061d-4e8e-4a05-a2ee-6d07f6726e53" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ApiSpringBoot/src/main/kotlin/com/example/demo2213/controllers/CommentController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiSpringBoot/src/main/kotlin/com/example/demo2213/models/Comment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ApiSpringBoot/src/main/kotlin/com/example/demo2213/services/CommentService.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApiSpringBoot/src/main/kotlin/com/example/demo2213/Demo2213Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ApiSpringBoot/src/main/kotlin/com/example/demo2213/Demo2213Application.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ApiSpringBoot/src/main/kotlin/com/example/demo2213/controllers/AuthController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ApiSpringBoot/src/main/kotlin/com/example/demo2213/controllers/AuthController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiSpringBoot/src/main/kotlin/com/example/demo2213/models/Notice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ApiSpringBoot/src/main/kotlin/com/example/demo2213/models/Notice.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiSpringBoot/src/main/kotlin/com/example/demo2213/services/UsersService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ApiSpringBoot/src/main/kotlin/com/example/demo2213/services/UsersService.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,6 +35,9 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="39uU1HFiuxoOJCVGJT8N3LqchIY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />

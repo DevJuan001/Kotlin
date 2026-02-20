@@ -76,12 +76,13 @@ class UsersService {
             FROM USERS
             WHERE user_email = ? AND user_password = ?
         """.trimIndent()
-
-        return jdbcTemplate.queryForObject(
+        val result = jdbcTemplate.queryForList(
             sql,
-            arrayOf(login.email, login.password),
-            Boolean::class.java
-        ) ?: false
+            login.email,
+            login.password
+        )
+        return result.isNotEmpty()
+
     }
 
     fun updateUser(user: User, id: Int): Int {
