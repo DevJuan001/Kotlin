@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a835061d-4e8e-4a05-a2ee-6d07f6726e53" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Modulos mobile console/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Modulos mobile console/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos mobile console/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos mobile console/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos mobile console/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos mobile console/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos mobile console/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos mobile console/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Login/Login.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos mobile console/src/Login/Login.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Login/Users.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos mobile console/src/Login/Users.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos mobile console/src/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Products/Product.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos mobile console/src/Products/Product.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Products/Products.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos mobile console/src/Products/Products.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Warranties/Warranties.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos mobile console/src/Warranties/Warranties.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Warranties/Warranty.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos mobile console/src/Warranties/Warranty.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tracklink_movil.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tracklink_movil.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="39uU1HFiuxoOJCVGJT8N3LqchIY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.Demo2213Application.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/APRENDIZ/Desktop/Kotlin/Api",
+    "onboarding.tips.debug.path": "C:/Users/APRENDIZ/Desktop/Kotlin/ApiSpringBoot/src/main/kotlin/Main.kt"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\APRENDIZ\Desktop\Kotlin\Api" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\APRENDIZ\Desktop\Kotlin\ApiSpringBoot" />
+      <recent name="C:\Users\APRENDIZ\Desktop\Kotlin" />
+      <recent name="C:\Users\APRENDIZ\Desktop\Kotlin\Modulos mobile console" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a835061d-4e8e-4a05-a2ee-6d07f6726e53" name="Changes" comment="" />
+      <created>1771545232298</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1771545232298</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/Modulos mobile console/src/Main.kt</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/Api/src/Main.kt</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/ApiSpringBoot/src/main/kotlin/Main.kt</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
