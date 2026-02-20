@@ -6,8 +6,9 @@ import org.springframework.stereotype.Service
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody
 import com.example.demo2213.services.UsersService
+import org.springframework.web.bind.annotation.RestController
 
-@Service
+@RestController
 class AuthController {
 
     @Autowired

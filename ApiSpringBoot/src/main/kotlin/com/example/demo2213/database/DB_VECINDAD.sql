@@ -1,5 +1,6 @@
-USE mi_base_de_datos;
-
+DROP DATABASE DB_VECINDAD;
+CREATE DATABASE DB_VECINDAD;
+USE DB_VECINDAD;
 
 CREATE TABLE USERS (
   user_id INT NOT NULL AUTO_INCREMENT ,
@@ -11,15 +12,15 @@ CREATE TABLE USERS (
   user_address VARCHAR(255) NOT NULL,
   user_password VARCHAR(255) NOT NULL ,
   user_city VARCHAR(255) NOT NULL ,
-  user_date DATE NOT NULL ,
+  user_date DATE NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (user_id) 
   )
 ENGINE = InnoDB;
 
-CREATE TABLE CATEGORIAS (
+CREATE TABLE CATEGORIES (
   category_id INT NOT NULL AUTO_INCREMENT  ,
   category_name VARCHAR(100) NOT NULL ,
-  category_date DATE NOT NULL,
+  category_date DATE NOT NULL DEFAULT CURRENT_TIMESTAMP,
   UNIQUE INDEX category_id_UNIQUE (category_id ASC),
   PRIMARY KEY (category_id)
   )
@@ -27,9 +28,9 @@ ENGINE = InnoDB;
 
 CREATE TABLE NOTICES (
   notice_id INT NOT NULL AUTO_INCREMENT,
-  notice_body VARCHAR(100) NOT NULL,
-  notice_status VARCHAR(100) NOT NULL,
-  notice_date DATE NOT NULL,
+  notice_body TEXT NOT NULL,
+  notice_status TEXT NOT NULL,
+  notice_date DATE NOT NULL DEFAULT CURRENT_TIMESTAMP,
   category_id INT NOT NULL,
   PRIMARY KEY (notice_id)
 )

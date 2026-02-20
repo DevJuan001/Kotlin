@@ -5,22 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a835061d-4e8e-4a05-a2ee-6d07f6726e53" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Modulos mobile console/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modulos mobile console/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos mobile console/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos mobile console/.idea/kotlinc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos mobile console/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos mobile console/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos mobile console/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos mobile console/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Login/Login.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos mobile console/src/Login/Login.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Login/Users.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos mobile console/src/Login/Users.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos mobile console/src/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Products/Product.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos mobile console/src/Products/Product.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Products/Products.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos mobile console/src/Products/Products.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Warranties/Warranties.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos mobile console/src/Warranties/Warranties.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Warranties/Warranty.kt" beforeDir="false" afterPath="$PROJECT_DIR$/Modulos mobile console/src/Warranties/Warranty.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tracklink_movil.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tracklink_movil.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiSpringBoot/src/main/kotlin/com/example/demo2213/Demo2213Application.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ApiSpringBoot/src/main/kotlin/com/example/demo2213/Demo2213Application.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiSpringBoot/src/main/kotlin/com/example/demo2213/controllers/AuthController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/ApiSpringBoot/src/main/kotlin/com/example/demo2213/controllers/AuthController.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
